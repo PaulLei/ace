@@ -160,7 +160,7 @@ const CourseDetails = () => {
               Our Course includes access to our comprehensive learning platform, practice materials, and expert instructor support.
             </p>
             <a
-              href="https://forms.gle/FLrNAkH9nTLvofNt5"
+              href="https://docs.google.com/forms/d/e/1FAIpQLSc5y00XIcGA0gm1jepzfBUmfhxOmbfkcAKdjdN6ylWstJ9Gew/viewform"
               target="_blank"
               rel="noopener noreferrer"
               className="mt-6 inline-block bg-blue-600 text-white px-8 py-4 rounded-lg font-semibold hover:bg-blue-700 transition-colors duration-200"
@@ -172,40 +172,7 @@ const CourseDetails = () => {
           </div>
       </section>
 
-      {/* Features Section */}
-      <section className="py-20 bg-blue-600 text-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold mb-4">Why Choose Our Courses?</h2>
-          </div>
 
-          <div className="grid md:grid-cols-3 gap-8">
-            <div className="text-center">
-              <div className="bg-blue-500 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
-                <Award className="h-8 w-8" />
-              </div>
-              <h3 className="text-xl font-semibold mb-3">Expert Instructors</h3>
-              <p className="text-blue-100">Learn from PhD-level chemistry experts with years of AP teaching experience.</p>
-            </div>
-            
-            <div className="text-center">
-              <div className="bg-blue-500 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
-                <Users className="h-8 w-8" />
-              </div>
-              <h3 className="text-xl font-semibold mb-3">Small Class Sizes</h3>
-              <p className="text-blue-100">Personalized attention with maximum 20 students per class for optimal learning.</p>
-            </div>
-            
-            <div className="text-center">
-              <div className="bg-blue-500 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
-                <BookOpen className="h-8 w-8" />
-              </div>
-              <h3 className="text-xl font-semibold mb-3">Comprehensive Materials</h3>
-              <p className="text-blue-100">Access to extensive practice problems, lab simulations, and exam prep resources.</p>
-            </div>
-          </div>
-        </div>
-      </section>
 
       
 
