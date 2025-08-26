@@ -133,11 +133,7 @@ const About = () => {
           }`}>
             {team.map((member, index) => (
               <div key={index} className="bg-gray-50 rounded-xl p-8 text-center">
-                <img 
-                  src={member.image} 
-                  alt={member.name}
-                  className="w-24 h-24 rounded-full mx-auto mb-6 object-cover"
-                />
+      
                 <h3 className="text-xl font-semibold text-gray-900 mb-2">{member.name}</h3>
                 <p className="text-blue-600 font-medium mb-4">{member.role}</p>
                 <p className="text-gray-600 text-sm leading-relaxed">{member.bio}</p>
