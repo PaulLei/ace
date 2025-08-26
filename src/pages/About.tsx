@@ -71,7 +71,7 @@ const About = () => {
                 Comprehensive Notes & Worksheets to reinforce each lesson
               </p>
               <p>
-                Practice Exams (sample exam link)
+                Practice Exams
               </p>
               <p>
               Chemical Relevance Sections (CRS) in every unit, showing real-life applications (e.g., in the Organic Chemistry unit, the CRS explores biochemistry and why hair can be straight or curly)
