@@ -11,7 +11,7 @@ const Home = () => {
     },
     {
       icon: Users,
-      title: "Small Class Sizes",
+      title: "Personalized Learning",
       description: "Personalized attention to all students in class for optimized learning outcomes."
     },
     {
