@@ -7,22 +7,22 @@ const Home = () => {
     {
       icon: BookOpen,
       title: "Expert Curriculum",
-      description: "Comprehensive AP Chemistry curriculum designed by experienced educators and industry professionals."
+      description: "Comprehensive AP Chemistry content designed by experienced educators to help build students' conceptual understanding."
     },
     {
       icon: Users,
       title: "Small Class Sizes",
-      description: "Personalized attention with maximum 12 students per class for optimal learning outcomes."
+      description: "Personalized attention to all students in class for optimized learning outcomes."
     },
     {
       icon: Award,
       title: "Proven Results",
-      description: "95% of our students achieve a score of 4 or 5 on the AP Chemistry exam."
+      description: "100% of ACE students have achieved either a 4 or a 5 on the AP Chemistry Exam."
     },
     {
       icon: Target,
       title: "Non-Profit Mission",
-      description: "All proceeds support educational initiatives and scholarships for underserved students."
+      description: "All proceeds support Kids On The Go and children in need."
     }
   ];
 
