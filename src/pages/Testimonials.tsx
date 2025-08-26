@@ -22,7 +22,7 @@ const Testimonials = () => {
       school: "Troy High School",
       score: "AP Score: 5",
       image: "",
-      text: "I highly recommend Ace Academy to anyone looking to excel in AP Chemistry. Abhinav's lessons are engaging and he provides plenty of practice problems to help reinforce the material. His support and encouragement made a huge difference in my performance on the exam."
+      text: "ACE transformed the way I saw chemistry. Not only did I ACE the AP Chemistry exam, but ACE taught me that chemistry isnt just a subject - its a skill that I can master. If you want extensive knowledge outside of your conventional Chemistry textbook, ACE is the place to be."
     },
 
   ];
