@@ -6,8 +6,6 @@ import Home from './pages/Home';
 import About from './pages/About';
 import Testimonials from './pages/Testimonials';
 import Courses from './pages/Courses';
-import NonProfit from './pages/NonProfit';
-import FAQ from './pages/FAQ';
 
 function App() {
   return (
