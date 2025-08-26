@@ -29,7 +29,6 @@ const Testimonials = () => {
 
   const stats = [
     { number: "4.9/5", label: "Average Rating", description: "" },
-    { number: "100%", label: "Pass Rate", description: "Students scoring 3+" },
     { number: "100%", label: "Top Scores", description: "Students scoring 4 or 5" },
     { number: "100%", label: "Satisfaction", description: "Would recommend to friends" }
   ];
