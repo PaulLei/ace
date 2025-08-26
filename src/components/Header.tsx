@@ -45,7 +45,7 @@ const Header = () => {
 
           <div className="hidden md:block">
   <a
-    href="https://forms.gle/YOUR_GOOGLE_FORM_ID"
+    href="https://docs.google.com/forms/d/e/1FAIpQLSc5y00XIcGA0gm1jepzfBUmfhxOmbfkcAKdjdN6ylWstJ9Gew/viewform"
     target="_blank"
     rel="noopener noreferrer"
     className="bg-blue-600 text-white px-6 py-2 rounded-lg hover:bg-blue-700 transition-colors duration-200"
