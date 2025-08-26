@@ -24,17 +24,6 @@ const Footer = () => {
             <ul className="space-y-2">
               <li><Link to="/about" className="text-gray-400 hover:text-white transition-colors">About Us</Link></li>
               <li><Link to="/courses" className="text-gray-400 hover:text-white transition-colors">Courses</Link></li>
-              <li><Link to="/testimonials" className="text-gray-400 hover:text-white transition-colors">Testimonials</Link></li>
-              <li><Link to="/faq" className="text-gray-400 hover:text-white transition-colors">FAQ</Link></li>
-            </ul>
-          </div>
-
-          <div>
-            <h3 className="text-lg font-semibold mb-4">Our Mission</h3>
-            <ul className="space-y-2">
-              <li><Link to="/nonprofit" className="text-gray-400 hover:text-white transition-colors">Non-Profit Impact</Link></li>
-              <li><a href="#" className="text-gray-400 hover:text-white transition-colors">Educational Resources</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-white transition-colors">Community Outreach</a></li>
             </ul>
           </div>
 
