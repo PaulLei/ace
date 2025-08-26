@@ -20,8 +20,6 @@ function App() {
             <Route path="/about" element={<About />} />
             <Route path="/testimonials" element={<Testimonials />} />
             <Route path="/courses" element={<Courses />} />
-            <Route path="/nonprofit" element={<NonProfit />} />
-            <Route path="/faq" element={<FAQ />} />
           </Routes>
         </main>
         <Footer />
