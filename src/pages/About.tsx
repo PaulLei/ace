@@ -20,7 +20,7 @@ const About = () => {
     {
       icon: Users,
       title: "Student-Centered Approach",
-      description: "100% of ACE students have achieved either a 4 or a 5 on the AP Chemistry Exam."
+      description: "Tutoring designed to help individual students with their mistakes and struggles."
     },
     {
       icon: BookOpen,
