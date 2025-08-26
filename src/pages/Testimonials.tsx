@@ -7,21 +7,21 @@ const Testimonials = () => {
       name: "Advik Tatavarthi",
       school: "Troy High School",
       score: "AP Score: 5",
-      image: "",
+    
       text: "Ace Academy completely transformed my understanding of AP Chemistry. Abhinav was incredibly helpful in making the concepts clear and fun to learn by tieing them into real-world applications. With his help I was able to do well on all assesments and the AP exam!"
     },
     {
       name: "Paul Lei",
       school: "Troy High School",
       score: "AP Score: 5",
-      image: "",
+     
       text: "Abhinav is an amazing tutor who really cares about his students. His teaching style is very intuitive and he makes sure to explain concepts in a way that is easy to understand. Thanks to his guidance, I was able to achieve a 5 on the AP Chemistry exam!"
     },
     {
       name: "Jayden Paik",
       school: "Troy High School",
       score: "AP Score: 5",
-      image: "",
+      
       text: "ACE transformed the way I saw chemistry. Not only did I ACE the AP Chemistry exam, but ACE taught me that chemistry isnt just a subject - its a skill that I can master. If you want extensive knowledge outside of your conventional Chemistry textbook, ACE is the place to be."
     },
 
@@ -74,11 +74,7 @@ const Testimonials = () => {
             {testimonials.map((testimonial, index) => (
               <div key={index} className="bg-white rounded-xl p-8 shadow-sm hover:shadow-lg transition-shadow duration-300">
                 <div className="flex items-center mb-6">
-                  <img 
-                    src={testimonial.image} 
-                    alt={testimonial.name}
-                    className="w-12 h-12 rounded-full object-cover mr-4"
-                  />
+                  
                   <div>
                     <h3 className="font-semibold text-gray-900">{testimonial.name}</h3>
                     <p className="text-sm text-gray-600">{testimonial.school}</p>
