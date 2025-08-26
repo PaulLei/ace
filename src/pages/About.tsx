@@ -16,22 +16,22 @@ const About = () => {
     {
       icon: Heart,
       title: "Passion for Education",
-      description: "We believe every student deserves access to excellent chemistry education, regardless of their background."
+      description: "Comprehensive AP Chemistry content designed by experienced educators to help build students' conceptual understanding."
     },
     {
       icon: Users,
       title: "Student-Centered Approach",
-      description: "Our teaching methods are tailored to individual learning styles and needs for maximum success."
+      description: "100% of ACE students have achieved either a 4 or a 5 on the AP Chemistry Exam."
     },
     {
       icon: BookOpen,
       title: "Academic Excellence",
-      description: "We maintain the highest standards in curriculum design and instructional quality."
+      description: "100% of ACE students have achieved either a 4 or a 5 on the AP Chemistry Exam."
     },
     {
       icon: Award,
-      title: "Proven Impact",
-      description: "Our success is measured not just in test scores, but in the confidence and knowledge our students gain."
+      title: "Impact",
+      description: "All proceeds support Kids On The Go and children in need."
     }
   ];
 
