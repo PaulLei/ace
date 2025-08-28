@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { Menu, X, Atom } from 'lucide-react';
+import { Menu, X } from 'lucide-react';
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -11,6 +11,7 @@ const Header = () => {
     { name: 'About', href: '/about' },
     { name: 'Courses', href: '/courses' },
     { name: 'Testimonials', href: '/testimonials' },
+    { name: 'Our Cause', href: '/cause'}
   ];
 
   const isActive = (path: string) => location.pathname === path;
@@ -19,10 +20,12 @@ const Header = () => {
     <header className="bg-white shadow-sm sticky top-0 z-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
-          <Link to="/" className="flex items-center space-x-2">
-            <div className="bg-blue-600 p-2 rounded-lg">
-              <Atom className="h-6 w-6 text-white" />
-            </div>
+          <Link to="/" className="flex items-center space-x-3">
+            <img
+              src="/acelogo.jpeg"
+              alt="ACE Academy Logo"
+              className="h-10 w-auto object-contain"
+            />
             <span className="text-xl font-bold text-gray-900">ACE Academy</span>
           </Link>
 

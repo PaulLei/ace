@@ -9,9 +9,11 @@ const Footer = () => {
         <div className="grid md:grid-cols-4 gap-8">
           <div className="col-span-1">
             <Link to="/" className="flex items-center space-x-2 mb-4">
-              <div className="bg-blue-600 p-2 rounded-lg">
-                <Atom className="h-6 w-6 text-white" />
-              </div>
+                          <img
+              src="/acelogo.jpeg"
+              alt="ACE Academy Logo"
+              className="h-10 w-auto object-contain"
+            />
               <span className="text-xl font-bold">ACE Academy</span>
             </Link>
             <p className="text-gray-400">
