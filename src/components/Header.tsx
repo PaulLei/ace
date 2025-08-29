@@ -24,7 +24,7 @@ const Header = () => {
             <img
               src="/acelogo.jpeg"
               alt="ACE Academy Logo"
-              className="h-10 w-auto object-contain"
+              className="h-10 w-auto object-contain rounded-full"
             />
             <span className="text-xl font-bold text-gray-900">ACE Academy</span>
           </Link>
