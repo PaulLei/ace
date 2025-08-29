@@ -109,7 +109,7 @@ const Home = () => {
             Ready to Excel in AP Chemistry?
           </h2>
           <p className="text-xl text-blue-100 mb-8">
-            Join hundreds of successful students who've achieved their AP Chemistry goals with ACE Academy.
+            Join many successful students who've achieved their AP Chemistry goals with ACE Academy.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link 
