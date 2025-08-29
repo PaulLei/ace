@@ -136,7 +136,7 @@ const About = () => {
                 <img
               src="/bopi.png"
               alt="Abhinav Jain"
-              className="h-10 w-auto object-contain"
+              className="mx-auto h-32 w-32 object-cover rounded-full"
                   />
                 <h3 className="text-xl font-semibold text-gray-900 mb-2">{member.name}</h3>
                 <p className="text-blue-600 font-medium mb-4">{member.role}</p>
