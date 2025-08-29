@@ -48,9 +48,6 @@ const Home = () => {
               Join our elite AP Chemistry program where exceptional teaching meets proven results. 
               Transform your understanding of chemistry while supporting educational equity.
             </p>
-            <p className="text-lg text-blue-200 mb-8 italic">
-              First meeting is <span className="font-semibold">Free</span>! Join us on Thursday August 28 at 8-9pm ET. Zoom code: 858 4448 2494 Password: ACE
-              </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Link
                 to="/about"
