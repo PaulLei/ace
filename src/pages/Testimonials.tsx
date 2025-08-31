@@ -24,6 +24,14 @@ const Testimonials = () => {
       
       text: "ACE transformed the way I saw chemistry. Not only did I ACE the AP Chemistry exam, but ACE taught me that chemistry isnt just a subject - its a skill that I can master. If you want extensive knowledge outside of your conventional Chemistry textbook, ACE is the place to be."
     },
+    {
+      name: "Jian Song",
+      school: "Troy High School",
+      score: "AP Score: 5",
+
+      text: "ACE didn't just increase my knowledge on general Chemistry, it gave me hope for all things in my daily life. The confidence  gained and the words of encouragement from the teacher made me believe i could achieve anything."
+    },
+    
 
   ];
 
