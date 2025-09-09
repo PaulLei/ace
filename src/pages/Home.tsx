@@ -47,6 +47,9 @@ const Home = () => {
             <p className="text-xl text-blue-100 mb-8 leading-relaxed">
               Join our elite AP Chemistry program where exceptional teaching meets proven results. 
               Transform your understanding of chemistry while supporting educational equity.
+Zoom Link for Class Today(9/9): https://us06web.zoom.us/j/83558302249?pwd=pESlkZ7a8uUk5CzqFjXzebegcBnWCb.1
+						Meeting ID: 835 5830 2249 
+						Passcode: ACE
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Link
