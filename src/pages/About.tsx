@@ -43,9 +43,6 @@ const About = () => {
           <p className="text-xl leading-relaxed">
             Founded with a mission to make world-class AP Chemistry education accessible to all students, 
             while creating positive impact in our community through educational equity.
-						Zoom Link for Class Today(9/9): https://us06web.zoom.us/j/83558302249?pwd=pESlkZ7a8uUk5CzqFjXzebegcBnWCb.1
-						Meeting ID: 835 5830 2249 
-						Passcode: ACE
 
           </p>
         </div>
