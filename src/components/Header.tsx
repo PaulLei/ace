@@ -11,7 +11,7 @@ const Header = () => {
     { name: 'About', href: '/about' },
     { name: 'Courses', href: '/courses' },
     { name: 'Testimonials', href: '/testimonials' },
-    { name: 'Our Cause', href: '/cause'}
+    { name: 'Our Cause', href: '/cause' }
   ];
 
   const isActive = (path: string) => location.pathname === path;
@@ -29,8 +29,8 @@ const Header = () => {
             <span className="text-xl font-bold text-gray-900">ACE Academy</span>
           </Link>
 
-          {/* Desktop Navigation */}
-          <nav className="hidden md:flex space-x-8">
+          {/* Desktop Navigation (lg and up) */}
+          <nav className="hidden lg:flex space-x-8">
             {navigation.map((item) => (
               <Link
                 key={item.name}
@@ -46,22 +46,25 @@ const Header = () => {
             ))}
           </nav>
 
-          <div className="hidden md:block">
-  <a
-    href="https://docs.google.com/forms/d/e/1FAIpQLSc5y00XIcGA0gm1jepzfBUmfhxOmbfkcAKdjdN6ylWstJ9Gew/viewform"
-    target="_blank"
-    rel="noopener noreferrer"
-    className="bg-blue-600 text-white px-6 py-2 rounded-lg hover:bg-blue-700 transition-colors duration-200"
-  >
-    Enroll Now
-  </a>
-</div>
-
+          {/* Desktop CTA (lg and up) */}
+          <div className="hidden lg:block">
+            <a
+              href="https://docs.google.com/forms/d/e/1FAIpQLSc5y00XIcGA0gm1jepzfBUmfhxOmbfkcAKdjdN6ylWstJ9Gew/viewform"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-blue-600 text-white px-6 py-2 rounded-lg hover:bg-blue-700 transition-colors duration-200"
+            >
+              Enroll Now
+            </a>
+          </div>
 
           {/* Mobile menu button */}
           <button
-            onClick={() => setIsMenuOpen(!isMenuOpen)}
-            className="md:hidden p-2"
+            type="button"
+            aria-label="Toggle menu"
+            aria-expanded={isMenuOpen}
+            onClick={() => setIsMenuOpen((prev) => !prev)}
+            className="lg:hidden p-2"
           >
             {isMenuOpen ? (
               <X className="h-6 w-6 text-gray-600" />
@@ -70,10 +73,12 @@ const Header = () => {
             )}
           </button>
         </div>
+      </div>
 
-        {/* Mobile Navigation */}
-        {isMenuOpen && (
-          <div className="md:hidden">
+      {/* Mobile Navigation (absolute panel) */}
+      {isMenuOpen && (
+        <div className="lg:hidden absolute inset-x-0 top-16 z-[60] bg-white border-t shadow-md">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6">
             <div className="py-2 space-y-1">
               {navigation.map((item) => (
                 <Link
@@ -90,14 +95,20 @@ const Header = () => {
                 </Link>
               ))}
               <div className="px-3 py-2">
-                <button className="w-full bg-blue-600 text-white px-6 py-2 rounded-lg hover:bg-blue-700 transition-colors duration-200">
+                <a
+                  href="https://docs.google.com/forms/d/e/1FAIpQLSc5y00XIcGA0gm1jepzfBUmfhxOmbfkcAKdjdN6ylWstJ9Gew/viewform"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="w-full inline-flex justify-center bg-blue-600 text-white px-6 py-2 rounded-lg hover:bg-blue-700 transition-colors duration-200"
+                  onClick={() => setIsMenuOpen(false)}
+                >
                   Enroll Now
-                </button>
+                </a>
               </div>
             </div>
           </div>
-        )}
-      </div>
+        </div>
+      )}
     </header>
   );
 };
