@@ -9,15 +9,16 @@ const Footer = () => {
         <div className="grid md:grid-cols-4 gap-8">
           <div className="col-span-1">
             <Link to="/" className="flex items-center space-x-2 mb-4">
-                          <img
-              src="/acelogo.jpeg"
-              alt="ACE Academy Logo"
-              className="h-10 w-auto object-contain"
-            />
+              <img
+                src="/acelogo.jpeg"
+                alt="ACE Academy Logo"
+                className="h-10 w-auto object-contain"
+              />
               <span className="text-xl font-bold">ACE Academy</span>
             </Link>
             <p className="text-gray-400">
-              Empowering students to excel in AP Chemistry through innovative teaching and personalized support.
+              Empowering students to excel in AP Chemistry through innovative teaching
+              and personalized support.
             </p>
           </div>
 
@@ -28,7 +29,6 @@ const Footer = () => {
               <li><Link to="/courses" className="text-gray-400 hover:text-white transition-colors">Courses</Link></li>
               <li><Link to="/testimonials" className="text-gray-400 hover:text-white transition-colors">Testimonials</Link></li>
               <li><Link to="/cause" className="text-gray-400 hover:text-white transition-colors">Cause</Link></li>
-              
             </ul>
           </div>
 
@@ -39,21 +39,38 @@ const Footer = () => {
                 <Mail className="h-4 w-4 text-blue-400" />
                 <span className="text-gray-400">acechemtutor@gmail.com</span>
               </div>
+
               <div className="flex items-center space-x-2">
                 <Phone className="h-4 w-4 text-blue-400" />
                 <span className="text-gray-400">248-940-8043</span>
               </div>
+
               <div className="flex items-center space-x-2">
                 <MapPin className="h-4 w-4 text-blue-400" />
-                <span className="text-gray-400">Instagram: acechemistry.tutor
-</span>
+                <span className="text-gray-400">Instagram: acechemistry.tutor</span>
               </div>
             </div>
           </div>
         </div>
 
-        <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
-          <p>&copy; 2025 ACE Academy. All rights reserved. A non-profit educational organization.</p>
+        {/* --- Updated Bottom Section --- */}
+        <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400 space-y-2">
+          <p>
+            &copy; 2025 ACE Academy. All rights reserved. A non-profit educational
+            organization.
+          </p>
+
+          <p className="text-sm">
+            Made by{" "}
+            <a
+              href="https://www.patadigitalservices.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-blue-400 hover:text-blue-300 font-medium"
+            >
+              PATA Digital Services
+            </a>
+          </p>
         </div>
       </div>
     </footer>
