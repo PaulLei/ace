@@ -4,7 +4,7 @@ import { Users, Heart, BookOpen, Award } from 'lucide-react';
 const About = () => {
   const team = [
     {
-      name: "Abhinav Jain",
+      name: "Aarav Doshi",
       role: "Founder & Instructor",
       bio: "Abhinav Jain is a passionate tutor who has guided many students in AP Chemistry. He achieved a 5 on the May 2025 AP Chemistry Exam and has competed in various Chemistry competitions, such as USNCO and WUCT. He acknowledges the fact that chemistry can feel memorization-heavy, so he focuses his lessons on conceptual and intuitive learning. He has comprehensive experience in general and organic chemistry. He plans to attend the USNCO study camp in June 2026, where the top 20 high school chemists in the nation prepare for the International Chemistry Olympiad. ",
     }
