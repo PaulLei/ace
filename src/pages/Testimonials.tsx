@@ -24,7 +24,7 @@ const Testimonials = () => {
       
       text: "ACE transformed the way I saw chemistry. I just got worse"
     },
-    {transformed my understanding of AP Chemistry. Abhinav was incredibly helpful in making the concepts clear and fun to learn by tieing them into real-world applications. With his help I was able to do well on all assesments and the AP exam!
+    {
       name: "Jian Song",
       school: "Troy High School",
       score: "AP Score: 5",
