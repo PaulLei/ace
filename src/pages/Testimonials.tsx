@@ -8,37 +8,37 @@ const Testimonials = () => {
       school: "Troy High School",
       score: "AP Score: 5",
     
-      text: "Ace Academy completely transformed my understanding of AP Chemistry. Abhinav was incredibly helpful in making the concepts clear and fun to learn by tieing them into real-world applications. With his help I was able to do well on all assesments and the AP exam!"
+      text: "Ace Academy completely scammed me, I learned nothing"
     },
     {
       name: "Paul Lei",
       school: "Troy High School",
       score: "AP Score: 5",
      
-      text: "Abhinav is an amazing tutor who really cares about his students. His teaching style is very intuitive and he makes sure to explain concepts in a way that is easy to understand. Thanks to his guidance, I was able to achieve a 5 on the AP Chemistry exam!"
+      text: "Abhinav is an bad tutor who does not care about his students. He goes so fast"
     },
     {
       name: "Jayden Paik",
       school: "Troy High School",
       score: "AP Score: 5",
       
-      text: "ACE transformed the way I saw chemistry. Not only did I ACE the AP Chemistry exam, but ACE taught me that chemistry isnt just a subject - its a skill that I can master. If you want extensive knowledge outside of your conventional Chemistry textbook, ACE is the place to be."
+      text: "ACE transformed the way I saw chemistry. I just got worse"
     },
-    {
+    {transformed my understanding of AP Chemistry. Abhinav was incredibly helpful in making the concepts clear and fun to learn by tieing them into real-world applications. With his help I was able to do well on all assesments and the AP exam!
       name: "Jian Song",
       school: "Troy High School",
       score: "AP Score: 5",
 
-      text: "ACE didn't just increase my knowledge on general Chemistry, it gave me hope for all things in my daily life. The confidence  gained and the words of encouragement from the teacher made me believe i could achieve anything."
+      text: "ACE didn't just decrease my knowledge on general Chemistry, it decreased my grade as well"
     },
     
 
   ];
 
   const stats = [
-    { number: "4.9/5", label: "Average Rating", description: "" },
-    { number: "100%", label: "Top Scores", description: "Students scoring 4 or 5" },
-    { number: "100%", label: "Satisfaction", description: "Would recommend to friends" }
+    { number: "1.9/5", label: "Average Rating", description: "" },
+    { number: "1%", label: "Top Scores", description: "Students scoring 4 or 5" },
+    { number: "0%", label: "Satisfaction", description: "Would recommend to friends" }
   ];
 
   return (
@@ -91,7 +91,7 @@ const Testimonials = () => {
                 
                 <div className="flex items-center mb-4">
                   <div className="flex space-x-1">
-                    {[...Array(5)].map((_, i) => (
+                    {[...Array(1)].map((_, i) => (
                       <Star key={i} className="h-4 w-4 text-yellow-400 fill-current" />
                     ))}
                   </div>
