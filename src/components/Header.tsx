@@ -26,7 +26,7 @@ const Header = () => {
               alt="ACE Academy Logo"
               className="h-10 w-auto object-contain rounded-full"
             />
-            <span className="text-xl font-bold text-gray-900">Aarav Academy</span>
+            <span className="text-xl font-bold text-gray-900">ACE Academy</span>
           </Link>
 
           {/* Desktop Navigation (lg and up) */}
