@@ -72,7 +72,7 @@ const Testimonials = () => {
                 
                 <div className="flex items-center mb-4">
                   <div className="flex space-x-1">
-                    {[...Array(1)].map((_, i) => (
+                    {[...Array(5)].map((_, i) => (
                       <Star key={i} className="h-4 w-4 text-yellow-400 fill-current" />
                     ))}
                   </div>
