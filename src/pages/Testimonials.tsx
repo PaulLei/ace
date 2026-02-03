@@ -8,28 +8,28 @@ const Testimonials = () => {
       school: "Troy High School",
       score: "AP Score: 5",
     
-      text: "Ace Academy completely scammed me, I learned nothing"
+      text: "Ace Academy completely transformed my understanding of AP Chemistry. Abhinav was incredibly helpful in making the concepts clear and fun to learn by tying them into real-world applications. With his help I was able to do well on all assessments and the AP exam!"
     },
     {
       name: "Paul Lei",
       school: "Troy High School",
       score: "AP Score: 5",
      
-      text: "Abhinav is an bad tutor who does not care about his students. He goes so fast"
+      text: "Abhinav is an great tutor who cares about his students. He takes the time to go over the nuances of chemistry, as well as explain difficult topics in a simple way. I would 100% recommend taking his course."
     },
     {
       name: "Jayden Paik",
       school: "Troy High School",
       score: "AP Score: 5",
       
-      text: "ACE transformed the way I saw chemistry. I just got worse"
+      text: "ACE transformed the way I saw chemistry. Not only did I ACE the AP Chemistry exam, but ACE taught me that chemistry isn't just a subject - its a skill that I can master. If you want extensive knowledge outside of your conventional Chemistry textbook, ACE is the place to be."
     },
     {
       name: "Jian Song",
       school: "Troy High School",
       score: "AP Score: 5",
 
-      text: "ACE didn't just decrease my knowledge on general Chemistry, it decreased my grade as well"
+      text: "Abhinav is an amazing tutor who really cares about his students. His teaching style is very intuitive and he makes sure to explain concepts in a way that is easy to understand. Thanks to his guidance, I was able to achieve a 5 on the AP Chemistry exam!"
     },
     
 
