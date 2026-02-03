@@ -42,14 +42,11 @@ const Home = () => {
           <div className="max-w-3xl">
             <h1 className="text-5xl md:text-6xl font-bold leading-tight mb-6">
               Master AP Chemistry with 
-              <span className="text-blue-300"> Aarav Academy</span>
+              <span className="text-blue-300"> ACE Academy</span>
             </h1>
             <p className="text-xl text-blue-100 mb-8 leading-relaxed">
               Join our elite AP Chemistry program where exceptional teaching meets proven results. FIRST CLASS IS FREE!!!
               Transform your understanding of chemistry while supporting educational equity.
-Zoom Link for Class Today(9/9): https://us06web.zoom.us/j/83558302249?pwd=pESlkZ7a8uUk5CzqFjXzebegcBnWCb.1
-						Meeting ID: 835 5830 2249 
-						Passcode: ACE
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Link
